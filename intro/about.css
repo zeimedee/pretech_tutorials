@@ -1,0 +1,25 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.greeting{
+    font-size: 70px;
+    color: rgb(58, 54, 54);
+}
+
+.job{
+    font-size: 30px;
+    color: rgb(58, 54, 54);
+}
+
+.profile{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}

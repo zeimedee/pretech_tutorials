@@ -112,3 +112,24 @@ function add(a,b){
 let data = add(4,7)
 
 console.log(data)
+
+
+//dom manipulation
+
+
+let title = document.getElementById('title')
+ title.style.color = 'yellow';
+
+ let btn = document.getElementById('btn')
+
+
+ title.onmouseenter = function(){
+    title.style.color = 'purple'
+ }
+
+ let text = document.getElementById('text')
+
+ btn.onclick = function(){
+    title.style.color = 'green'
+    title.innerHTML = text.value
+ }
